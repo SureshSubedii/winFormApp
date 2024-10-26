@@ -1,6 +1,5 @@
 using System;
-using System.ComponentModel;
-using System.Drawing;
+// using System.Drawing;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Data;
@@ -111,7 +110,7 @@ namespace winFormApp
                 connection.Close();
             }
         }
-        private void DataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
+        private void DataGridView_CellClick(object? sender, DataGridViewCellEventArgs e)
 {
     if (e.RowIndex >= 0)
     {
